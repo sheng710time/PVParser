@@ -1,6 +1,13 @@
 # Ignore all .pcap files
 *.pcap
 *.pcapng
+**/*.pcap
+**/*.pcapng
 
 # Ignore filtered pcap files
-*_filtered.pcap 
+*_filtered.pcap
+**/*_filtered.pcap
+
+# Ignore large files
+*.csv
+**/*.csv 
