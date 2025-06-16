@@ -1,0 +1,6 @@
+# Ignore all .pcap files
+*.pcap
+*.pcapng
+
+# Ignore filtered pcap files
+*_filtered.pcap 
