@@ -3,7 +3,7 @@ from scapy.all import PcapReader, wrpcap
 from scapy.layers.inet import IP, TCP, UDP
 import hashlib
 import os
-from ics_basis import *
+from basis.ics_basis import *
 
 
 def split_pcap_by_packet_count(file_path, packets_per_file=1000000):
@@ -235,6 +235,9 @@ def filter_handshake(all_packets):
     print(f"filter_handshake ------> The number of all packets: {len(all_packets)}")
     print(f"filter_handshake ------> The number of filtered packets: {len(handshake_filtered_packets)}")
     return handshake_filtered_packets
+
+
+
 
 
 if __name__ == '__main__':
