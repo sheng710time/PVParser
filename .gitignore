@@ -12,6 +12,7 @@
 # *.csv
 # **/*.csv 
 
-# Ignore all files in dataset folder
-dataset/
-**/dataset/ 
+# Ignore all files in dataset folder but keep folder structure
+dataset/**/*
+!dataset/
+!dataset/**/
