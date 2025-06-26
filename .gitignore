@@ -1,13 +1,17 @@
 # Ignore all .pcap files
-*.pcap
-*.pcapng
-**/*.pcap
-**/*.pcapng
+# *.pcap
+# *.pcapng
+# **/*.pcap
+# **/*.pcapng
 
 # Ignore filtered pcap files
-*_filtered.pcap
-**/*_filtered.pcap
+# *_filtered.pcap
+# **/*_filtered.pcap
 
 # Ignore large files
-*.csv
-**/*.csv 
+# *.csv
+# **/*.csv 
+
+# Ignore all files in dataset folder
+dataset/
+**/dataset/ 
