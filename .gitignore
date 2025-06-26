@@ -16,3 +16,4 @@
 dataset/**/*
 !dataset/
 !dataset/**/
+!dataset/**/.gitkeep
